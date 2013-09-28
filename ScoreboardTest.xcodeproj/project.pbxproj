@@ -22,6 +22,7 @@
 		A1D2CFF917F61C43007DB5D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2CFD817F61C42007DB5D0 /* UIKit.framework */; };
 		A1D2D00117F61C43007DB5D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D2CFFF17F61C43007DB5D0 /* InfoPlist.strings */; };
 		A1D2D00317F61C43007DB5D0 /* ScoreboardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2D00217F61C43007DB5D0 /* ScoreboardTestTests.m */; };
+		A1D2D00E17F61CB0007DB5D0 /* ScoreboardTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2D00D17F61CB0007DB5D0 /* ScoreboardTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		A1D2CFFE17F61C43007DB5D0 /* ScoreboardTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreboardTestTests-Info.plist"; sourceTree = "<group>"; };
 		A1D2D00017F61C43007DB5D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1D2D00217F61C43007DB5D0 /* ScoreboardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreboardTestTests.m; sourceTree = "<group>"; };
+		A1D2D00C17F61CB0007DB5D0 /* ScoreboardTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardTVC.h; sourceTree = "<group>"; };
+		A1D2D00D17F61CB0007DB5D0 /* ScoreboardTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +117,9 @@
 		A1D2CFDA17F61C42007DB5D0 /* ScoreboardTest */ = {
 			isa = PBXGroup;
 			children = (
-				A1D2CFE317F61C42007DB5D0 /* ScoreboardTestAppDelegate.h */,
-				A1D2CFE417F61C42007DB5D0 /* ScoreboardTestAppDelegate.m */,
 				A1D2CFE617F61C42007DB5D0 /* Main_iPhone.storyboard */,
-				A1D2CFE917F61C42007DB5D0 /* Main_iPad.storyboard */,
+				A1D2D00C17F61CB0007DB5D0 /* ScoreboardTVC.h */,
+				A1D2D00D17F61CB0007DB5D0 /* ScoreboardTVC.m */,
 				A1D2CFEC17F61C42007DB5D0 /* ScoreboardTestViewController.h */,
 				A1D2CFED17F61C42007DB5D0 /* ScoreboardTestViewController.m */,
 				A1D2CFEF17F61C42007DB5D0 /* Images.xcassets */,
@@ -129,6 +131,9 @@
 		A1D2CFDB17F61C42007DB5D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1D2CFE317F61C42007DB5D0 /* ScoreboardTestAppDelegate.h */,
+				A1D2CFE917F61C42007DB5D0 /* Main_iPad.storyboard */,
+				A1D2CFE417F61C42007DB5D0 /* ScoreboardTestAppDelegate.m */,
 				A1D2CFDC17F61C42007DB5D0 /* ScoreboardTest-Info.plist */,
 				A1D2CFDD17F61C42007DB5D0 /* InfoPlist.strings */,
 				A1D2CFE017F61C42007DB5D0 /* main.m */,
@@ -257,6 +262,7 @@
 				A1D2CFE517F61C42007DB5D0 /* ScoreboardTestAppDelegate.m in Sources */,
 				A1D2CFE117F61C42007DB5D0 /* main.m in Sources */,
 				A1D2CFEE17F61C42007DB5D0 /* ScoreboardTestViewController.m in Sources */,
+				A1D2D00E17F61CB0007DB5D0 /* ScoreboardTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
